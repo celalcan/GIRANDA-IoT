@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body{
+    background-color: #111111;
+}
+
+.container { 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.sol{
+    width: 24.53vw;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.soltemel{
+    width:  8.74vw;
+    height: 92.80vh;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+   margin-left: 7.20vh;
+}
+.logo{
+    width: 8.74vw;
+    height: 8.74vw;
+    background: #292D32;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15.10vh;
+}
+.circle{
+    width: 4.43vw;
+    height: 4.43vw;
+   border-radius: 12212121px;
+    background: #292D32;
+    margin-bottom: 4.19vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle1{
+background: #FFC700;
+}
+
+.gorevcircle{
+    width: 2.26vw;
+    height: 2.26vw;
+}
+
+.imglogo{
+    width: auto;
+    height: 6.19vw;
+}
+.sag{
+    width: 75.47vw;
+    height: 100%;color: aliceblue;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+.temel{
+    width: 88.12%;
+    height: 92.80vh;
+    background: linear-gradient(180deg, #292D32 0%, rgba(41, 45, 50, 0) 100%);
+    border-radius: 16px 16px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+.temel2{
+    width: 88.12%;
+    height: 92.80vh;
+    border-radius: 16px 16px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.icsol{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4.77vw;
+    /* justify-content: center; */
+}
+
+
+
+.basliksol{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.67vw;
+    line-height: 27px;
+   
+}
+.button-1{
+    padding-top:3.57vw;
+    width: 61.20%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 4.28%;
+}
+.button-2{
+    width: 61.20%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.button-sol{
+    width: 66.25%;
+    height: 5.44vw;
+    background: #FFC700;
+    border-radius: 6px;
+    margin-right: 6.99%;
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   /* justify-content: center; */
+}
+.button-sag{
+    width: 26.74%;
+    height: 5.44vw;
+    background: #FFC700;
+    border-radius: 6px;
+}
+
+.button-yazi{
+    padding-left: 12.42%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.34vw;
+    line-height: 38px;
+    color: #14181F;
+}
+
+.button-img{
+     padding-left: 17.39%; 
+    width: auto;
+    height: 4.20vw;
+}
+
+.btn-sol-bc{
+    background-color: #434B53;
+}
+.btn-sag-bc{
+    background-color: #434B53;
+    
+}
+.button-sag{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-img-sag{
+    width: auto;
+    height: 4.20vw;
+}
+
+.ortacizgi{
+width: 0.16vw;
+height: 72.18vh;
+left: 741px;
+top: 103px;
+background: rgba(15, 16, 19, 0.63);
+}
+
+.icsag{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4.77vw;
+}
+
+.basliksag{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size:1.67vw;
+    line-height: 27px;
+   margin-bottom: 5.53vw;
+}
+
+.isikbilgi{
+display: flex;
+flex-direction: row;
+max-height: 56.47vh;
+
+}
+
+.isikbilgi-sol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2.51vw;
+    
+}
+.isikbilgi-sag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2.51vw;
+}
+
+.isikbilgibaslik{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 1.17vw;
+line-height: 27px;
+text-align: center;
+margin-bottom: 1.194vw;
+}
+
+.isikimg{
+    width: auto;
+    height: 3.20vw;
+    margin-bottom: 1vw;
+}
+.cizgi{
+width:0.14vw;
+height: 3.51vw;
+left: 881px;
+top: 402.01px;
+background-color:#434B53;
+margin-bottom: 1vw;
+}
